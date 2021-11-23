@@ -11,4 +11,4 @@ for ulink in open("urls.txt").read().split():
 		client.watch_ad(uid)
 		print(f"LUFFY FARMOU: {_}")
 	counter+=1
-	print(f"LUFFY FEZ DE NOVO EM: {1}")
+	print(f"LUFFY FEZ DE NOVO EM: {counter}")
