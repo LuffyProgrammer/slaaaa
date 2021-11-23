@@ -7,8 +7,8 @@ counter = 0
 
 for ulink in open("urls.txt").read().split():
 	uid=client.get_from_link(ulink).objectId
-	for _ in range(200):
+	for _ in range(25):
 		client.watch_ad(uid)
-		print(f"{_}")
+		print(f"LUFFY FARMOU: {_}")
 	counter+=1
-	print(f"{1}")
+	print(f"LUFFY FEZ DE NOVO EM: {1}")
