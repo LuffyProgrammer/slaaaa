@@ -22,7 +22,7 @@ def api1():
 
 
 def run():
-	app.run(host='https://ssserverapi.herokuapp.com/', port=random.randint(2000, 9000))
+	app.run(host='ssserverapi.herokuapp.com', port=random.randint(2000, 9000))
 
 def keep_alive():
 
