@@ -5,39 +5,15 @@ from threading import Thread
 import json
 from os import path
 import os
-
-os.system('pip install json')
-os.system('pip install requests')
-
-try:
-    import colorama
-except ModuleNotFoundError:
-    os.system("pip install colorama")
-    import colorama
-try:
-    import pyfiglet
-except ModuleNotFoundError:
-    os.system("pip install pyfiglet")
-    import pyfiglet
+import colorama
+import pyfiglet
 
 colorama.init()
 print(colorama.Fore.GREEN)
 print(colorama.Style.BRIGHT)
-f = pyfiglet.Figlet(font='slant')
-print (f.renderText('TECH'))
-f = pyfiglet.Figlet(font='slant')
-print (f.renderText('VISION'))
 f = pyfiglet.Figlet(font='digital')
 print (f.renderText('AMINOCOIN GENERATOR'))
 
-print("""
-Youtube:
-https://youtube.com/channel/UCPuZzOqlfpx_QTaC2yix7Pg
-
-Discord Server:
-https://discord.gg/YMfvAxm6zF
-
-""")
 dec = '━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━' 
 
 dictlist=[{"auid" : "bf81ffb4-3463-4e37-a762-57a79781b306"}] ## Paste here the AUID
