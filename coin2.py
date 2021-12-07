@@ -13,7 +13,7 @@ print("""\
 """)
 print('Tapjoy Bug AC By Marshall\n'+ line)
 
-uid = input('\33[34mEnter your UserId: ')
+uid = 'bf81ffb4-3463-4e37-a762-57a79781b306'
 print('\33[0m' + line)
 
 headers={
