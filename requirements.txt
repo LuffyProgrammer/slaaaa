@@ -1,3 +1,1 @@
 samino==1.5.2
-json
-requests
