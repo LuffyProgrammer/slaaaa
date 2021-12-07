@@ -5,6 +5,10 @@ from threading import Thread
 import json
 from os import path
 import os
+
+os.system('pip install json')
+os.system('pip install requests')
+
 try:
     import colorama
 except ModuleNotFoundError:
