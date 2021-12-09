@@ -14,6 +14,7 @@ print("""\
 print('Tapjoy Bug AC By Marshall\n'+ line)
 
 uid = 'bf81ffb4-3463-4e37-a762-57a79781b306'
+uid = '2f71512d-e58a-4fd5-8fa0-a1fa11ee8a20'
 print('\33[0m' + line)
 
 headers={
