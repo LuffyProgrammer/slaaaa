@@ -32,7 +32,7 @@ print(colorama.Fore.GREEN)
 print(colorama.Style.BRIGHT)
 dec = '━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━' 
 
-dictlist=[{"auid" : "bf81ffb4-3463-4e37-a762-57a79781b306"}] ## Paste here the AUID
+dictlist=[{"auid" : "bf81ffb4-3463-4e37-a762-57a79781b306"},{"auid" : "2f71512d-e58a-4fd5-8fa0-a1fa11ee8a20"}] ## Paste here the AUID
 
 headers={
         "cookies":"__cfduid=d0c98f07df2594b5f4aad802942cae1f01619569096",
