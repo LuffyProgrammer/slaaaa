@@ -5,3 +5,4 @@ while True:
     os.system('python3 starter.py')
     os.system('python3 coin.py')
     os.system('python3 coin2.py')
+    os.system('python3 coin3.py')
